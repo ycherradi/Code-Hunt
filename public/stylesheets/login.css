@@ -1,0 +1,201 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  color: whitesmoke;
+}
+html {
+  background-color: #13232f;
+}
+.loginBtn.active,
+.regBtn.active {
+  background-color: rgb(7, 193, 193);
+}
+.subText {
+  font-size: 12px;
+}
+label {
+  font-size: 18px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+}
+.hidden {
+  display: none;
+}
+.error-display.hidden {
+  display: none;
+}
+.split {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #13232f;
+}
+.left {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 890px;
+  min-width: 430px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-self: center;
+  margin-bottom: 50px;
+  height: 100%;
+  left: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.bgImg {
+  width: 100%;
+  height: auto;
+}
+.introImg {
+  width: 100%;
+  height: auto;
+}
+.imgShell {
+  align-self: center;
+  height: 225px;
+  width: 300px;
+}
+.code_hunt_logo {
+  height: auto;
+  width: auto;
+  background-color: whitesmoke;
+}
+.right {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  margin-top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #13232f;
+}
+.center {
+  padding: 10px;
+  box-sizing: border-box;
+  align-self: center;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  background-color: #13232f;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.login-tab-group {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.error-display {
+  background-color: black;
+  margin: 20px;
+  padding: 10px;
+  border-style: solid;
+  color: #c1bdba;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 100%;
+}
+
+input,
+textarea {
+  border: 1px solid #a0b3b0;
+  color: black;
+}
+
+.form-item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+.req {
+  color: rgb(5, 142, 142);
+  font-size: 30px;
+}
+
+.demoBtn {
+  background-color: rgb(5, 142, 142);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: none;
+}
+.loginBtn,
+.regBtn {
+  background-color: #13232f;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.register-tab,
+.login-tab,
+a {
+  background-color: #13232f;
+  width: 150px;
+  font-size: 30px;
+}
+
+.regBtn:hover,
+.regBtn:focus,
+.loginBtn:hover,
+.loginBtn:focus,
+.demoBtn:hover,
+.demoBtn:focus {
+  background-color: rgb(7, 193, 193);
+}
+
+.button {
+  padding: 5px;
+  border: none;
+  align-self: center;
+  margin: 10px;
+  background-color: rgb(5, 142, 142);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 150px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: rgb(7, 193, 193);
+}
+.button-block {
+  width: 300px;
+}
+
+.footer {
+  display: grid;
+  position: fixed;
+  left: 5 0%;
+  bottom: 0;
+  width: 100%;
+  background-color: #13232f;
+  color: whitesmoke;
+  text-align: center;
+}

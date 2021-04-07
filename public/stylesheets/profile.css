@@ -1,0 +1,211 @@
+h1 {
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.strong {
+  align-self: center;
+}
+.profile-container {
+  margin-top: 20px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-width: 700px;
+}
+
+.space1 {
+  width: 100px;
+}
+
+.user-logo-container {
+  width: 300px;
+}
+
+.user-logo {
+  min-width: 220px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: teal;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  align-self: center;
+  font-size: 140px;
+  color: whitesmoke;
+}
+
+.user-info {
+  min-width: 350px;
+  width: 90%;
+}
+
+.space2 {
+  height: 70px;
+}
+
+.user-name {
+  margin-top: 10px;
+  max-height: 50px;
+  font-size: 30px;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+
+.user-message {
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: teal;
+  height: 150px;
+  width: 90%;
+  min-width: 50px;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+
+.user-id {
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.uId {
+  padding: 5px;
+  margin: 5px;
+}
+.userName {
+  padding: 5px;
+  margin: 5px;
+}
+
+.edit-profile-button {
+  background-color: teal;
+  display: block;
+  justify-content: space-between;
+  width: 50%;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.space3 {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  align-self: center;
+  width: 200px;
+  height: 100px;
+  margin-left: 40px;
+  font-size: 30px;
+  padding-top: 50px;
+  color: whitesmoke;
+}
+
+.links-container {
+  min-height: 200px;
+  min-width: 750px;
+  align-self: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  width: 90%;
+  background-color: teal;
+}
+
+.link {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(5, 142, 142);
+  height: 70px;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.mylink-container {
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+  background-color: rgb(5, 142, 142);
+}
+
+.delete-logo {
+  height: 100%;
+  border: none;
+  background-color: rgb(5, 142, 142);
+  align-self: center;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.linkBtn {
+  height: 100%;
+  border: none;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: rgb(5, 142, 142);
+  align-self: center;
+  overflow: hidden;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.linkBtn:hover,
+.linkBtn:focus,
+.delete-logo:hover,
+.delete-logo:focus {
+  background: rgb(7, 193, 193);
+}
+.button-container {
+  height: 100%;
+  align-self: center;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-container {
+  height: 100%;
+  align-self: center;
+  width: 40%;
+}
+.langLogo {
+  height: 70px;
+  width: auto;
+}
+.imgContainer {
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

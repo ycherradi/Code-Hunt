@@ -1,0 +1,181 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+html {
+  background-color: #13232f;
+}
+body {
+  background-color: #13232f;
+}
+.code_hunt_logo {
+  min-width: 120px;
+  min-height: 120px;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.search_icon {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  align-self: center;
+  margin-top: 5px;
+}
+
+.navbar {
+  height: 66px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid darkgray;
+  padding: 5px;
+}
+
+.navbar_container {
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar_search {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  height: 40px;
+}
+
+.navbar_categories {
+  border: white;
+}
+
+.navbar_post {
+  border: white;
+}
+
+.search_label {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.input_field {
+  border: none;
+  outline: none;
+}
+
+#searchTerm.input_field {
+  height: 100%;
+  width: 40%;
+  min-width: 100px;
+  margin-right: 5px;
+  font-size: 14px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+#searchTerm.input_field:focus {
+  width: 100%;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.searchbtn {
+  font-size: 14px;
+  color: #6f6f6f;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.dropdown .dropbtn,
+.postbtn {
+  border: none;
+  font-size: 16px;
+  color: #6f6f6f;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.profilebtn .logoutbtn {
+  border: white;
+  font-size: 16px;
+  color: #6f6f6f;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.dropdown:hover,
+.dropbtn,
+.searchbtn:hover,
+.postbtn:hover,
+.profilebtn:hover,
+.logout_btn:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_content a:hover,
+.btn:hover {
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.profile_logout_div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: #6f6f6f;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}

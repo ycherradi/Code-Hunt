@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel="stylesheet" href="/stylesheets/navbar.css")
+    title Code Hunt - #{title}
+  body
+    .navbar
+      .navbar_container
+        .navbar_logo
+          a(href='/home')
+            img(class='code_hunt_logo' src='/images/logo.png')
+        .navbar_search
+          form(method='get' action="/posts/search")
+            label(class='search_label')
+              input(class='input_field' type="text" name="searchTerm" id="searchTerm" placeholder='Search Posts')
+              input(name='submit' class='search_icon searchbtn' type='image' src='/images/search-icon.png')
+        .navbar_categories
+          form(method='get' action="/posts/search")
+            .dropdown
+              button(class='dropbtn') Categories &#5121;
+              .dropdown_content
+                each language in languages
+                  if language.name === 'C++'
+                    a(href=`/posts/search?category=C%2B%2B`) #{language.name}
+                  else if language.name === 'C#'
+                    a(href=`/posts/search?category=C%23`) #{language.name}
+                  else
+                    a(href=`/posts/search?category=${language.name}`) #{language.name}
+        .navbar_post
+          a(href='/posts/new')
+            button(class='postbtn' type='submit') Post
+        .profile_logout_div
+          .navbar_profile
+            form(method='get' action="/profile")
+              button(class='profilebtn btn' type="submit") Profile
+          .navbar_logout
+            a(href='/logout')
+              button(class='btn logout_btn' type='submit') Logout
+  block content
